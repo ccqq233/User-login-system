@@ -14,7 +14,7 @@ Implement user login system using PHP and manage it using session mechanism.
   Table sessions
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0ecf4fec-332f-4b6a-960d-272ac122701b" width="300">
+  <img src="https://github.com/user-attachments/assets/471a1545-58f8-4cd7-b244-91545903c5b5" width="300">
 </p>
 <p align="center">
   Table users
