@@ -13,13 +13,25 @@ Implement user login system using PHP and manage it using session mechanism.
 <p align="center">
   Table sessions
 </p>
-<p style="text-align:center">![image2](https://github.com/user-attachments/assets/0ecf4fec-332f-4b6a-960d-272ac122701b)</p>
-<p style="text-align:center">Table users</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0ecf4fec-332f-4b6a-960d-272ac122701b" width="300">
+</p>
+<p align="center">
+  Table users
+</p>
 
 3. After the user logs in, the login information entered by the user is compared with the account password in the users table. If it passes, the session ID, username, creation date, expiration date (one minute later), last access date, and current IP address are set, and redirected to welcome. php. The welcome page displays the number of times the user has visited this page. When the user clicks the Refresh button, it checks if the session has expired and reloads the page.
 
 4. Every time the welcome page is loaded, search for session information for all current users and check if the expired_date is greater than the current time. If so, output the IP addresses where the current user has logged in and ask if they want to end their session; Otherwise, it indicates that the session has expired and will be deleted from the database. Then process other ongoing sessions based on the user's selection. If the user chooses to terminate their session, the record for that session will be deleted from the sessions table in the database.
-<p style="text-align:center">![image3](https://github.com/user-attachments/assets/eb78e225-4dd3-413e-9045-eb08f13e35bb)</p>
-<p style="text-align:center">Welcome page</p>
-<p style="text-align:center">![image4](https://github.com/user-attachments/assets/69b7aee9-560a-4d33-9e73-949ea503efb8)</p>
-<p style="text-align:center">Expired page</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/eb78e225-4dd3-413e-9045-eb08f13e35bb" width="800">
+</p>
+<p align="center">
+  Welcome page
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/69b7aee9-560a-4d33-9e73-949ea503efb8" width="800">
+</p>
+<p align="center">
+  Expired page
+</p>
