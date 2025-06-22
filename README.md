@@ -30,7 +30,7 @@ Implement user login system using PHP and manage it using session mechanism.
   Welcome page
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/69b7aee9-560a-4d33-9e73-949ea503efb8" width="800">
+  <img src="https://github.com/user-attachments/assets/69b7aee9-560a-4d33-9e73-949ea503efb8" width="300">
 </p>
 <p align="center">
   Expired page
