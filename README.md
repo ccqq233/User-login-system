@@ -8,6 +8,9 @@ Implement user login system using PHP and manage it using session mechanism.
 2. The database user_System contains a total of sessions and users tables. The sessions table is used to store session information, with the id column set as the primary key and automatically incremented. Each time a session is created, a unique session id is generated, and the ip_ address is used to store the IP address of the current user, so that the user can know the IP address of the ongoing session during concurrent access. The users table is used to store user information, where the visit_count column is used to store the number of user visits, with an initial value of 0. Before use, the database and tables should be created correctly.
 
 ![image1](https://github.com/user-attachments/assets/71215641-df69-4be4-8f0a-6036782ee194)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/71215641-df69-4be4-8f0a-6036782ee194" width="300">
+</p>
 <p style="text-align:center">Table sessions</p>
 <p style="text-align:center">![image2](https://github.com/user-attachments/assets/0ecf4fec-332f-4b6a-960d-272ac122701b)</p>
 <p style="text-align:center">Table users</p>
