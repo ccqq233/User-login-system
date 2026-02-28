@@ -35,3 +35,7 @@ Implement user login system using PHP and manage it using session mechanism.
 <p align="center">
   Expired page
 </p>
+
+# License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
